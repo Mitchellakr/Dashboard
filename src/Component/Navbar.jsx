@@ -54,23 +54,24 @@ const navlinks = [
 ]
 const Navbar = () => {
     return (
-        <div className='w-[230px]  bg-bodyColor border-r-2 border-solid border-grayColor border-y-0 border-l-0'>
+        <div className=' h-auto absolute w-60 bg-bodyColor border-r-2 border-solid border-grayColorLight border-y-0 border-l-0'>
+            {/* <div className=' h-full bg-bodyColor border-r-2 border-solid border-grayColorLight border-y-0 border-l-0'> */}
             <div className='w-full py-8'>
-                <h1 className='text-2xl font-semibold flex flex-col items-center'>
+                <h1 className='text-3xl font-semibold flex flex-col items-center'>
                     <span>Ticcki</span><span>Cassa</span>
                 </h1>
             </div>
-            <div className="menu h-full pb-5 flex flex-col gap-[10em]">
+            <div className="menu pb-5 pt-4 flex flex-col gap-[10em]">
                 <div>
                     {
                         navlinks.map((navlink) => (
-                            <Link to={navlink.path} key={navlink.id} className='text-grayColor cursor-pointer flex items-center gap-4 hover:border-4 hover:border-solid hover:border-primaryColor hover:border-y-0 hover:border-r-0 hover:text-primaryColor font-bold pl-[3em] py-3'>
+                            <Link to={navlink.path} key={navlink.id} className='text-grayColor mb-2 cursor-pointer flex items-center gap-4 hover:border-4 hover:border-solid hover:border-primaryColor hover:border-y-0 hover:border-r-0 hover:text-primaryColor font-bold pl-[3em] py-3'>
                                 {navlink.icon}
                                 <p>{navlink.navname}</p>
                             </Link>
                         ))
                     }
-                    <div className='cursor-pointer flex items-center gap-4 hover:border-4 hover:border-solid hover:border-redColor hover:border-y-0 hover:border-r-0 hover:text-redColor font-bold pl-[3em] py-3 my-4'>
+                    <div className='cursor-pointer flex items-center gap-4 hover:border-4 hover:border-solid hover:border-redColor hover:border-y-0 hover:border-r-0 hover:text-redColor font-bold pl-[3em] py-3 my-10'>
                         <LogoutCurve size='20' />
                         <p className='text-redColor'>logout</p>
                     </div>

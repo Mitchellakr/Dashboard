@@ -25,7 +25,11 @@ module.exports = {
     //   'gray': '#8492a6',
     //   'gray-light': '#d3dce6',
     // },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'cardPattern': "url('../src/assets/cardbg.png')",
+      }
+    },
   },
   plugins: [],
 }

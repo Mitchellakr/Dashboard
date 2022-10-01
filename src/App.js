@@ -10,7 +10,8 @@ import Ticket from './Routes/Ticket';
 
 export default function App() {
     return (
-        <div className='w-full h-[100%] redColor flex'>
+        <div className='w-full h-full'>
+            {/* <div className='w-full h-full grid grid-cols-[18%,82%]'> */}
             <Navbar />
             <Routes>
                 <Route path='/Dashboard' element={<Dashboard />} />
