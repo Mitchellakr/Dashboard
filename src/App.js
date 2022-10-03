@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
-import Navbar from './Component/Navbar';
 import Dashboard from './Routes/Dashboard';
 import Order from './Routes/Order';
 import Customer from './Routes/Customer';
@@ -10,10 +9,9 @@ import Ticket from './Routes/Ticket';
 
 export default function App() {
     return (
-        <div className='w-full h-full'>
-            {/* <div className='w-full h-full grid grid-cols-[18%,82%]'> */}
-            <Navbar />
+        <div className='h-full'>
             <Routes>
+                <Route path='/' element={<Dashboard />} />
                 <Route path='/Dashboard' element={<Dashboard />} />
                 <Route path='/Order' element={<Order />} />
                 <Route path='/Ticket' element={<Ticket />} />
