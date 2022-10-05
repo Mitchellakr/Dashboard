@@ -20,15 +20,15 @@ const Tasks = [
 
 const Welcome = () => {
     return (
-        <div className='border-2 border-grayColorLight border-solid rounded-xl p-6 bg-whiteColor grid col-span-5'>
-            <div className='text-4xl pb-3'>
+        <div className='carddark border-2 border-grayColorLight border-solid rounded-xl p-6 bg-whiteColor grid col-span-5'>
+            <div className='textwhite text-4xl pb-3'>
                 <h1>Welcome back,</h1>
-                <div className='flex items-center gap-2'>
+                <div className=' flex items-center gap-2'>
                     <h1 className="font-bold">Miranda</h1>
                     <img src={handwave} alt="wave emoji" />
                 </div>
             </div>
-            <div className='text-[12px] rounded-lg bg-bodyColor p-3 flex items-center justify-between'>
+            <div className='bgdark text-[12px] rounded-lg bg-bodyColor p-3 flex items-center justify-between'>
                 <div className='flex items-center gap-2'>
                     <img src={warning} alt="warning icon" />
                     <p className='text-grayColor'>You've not set a monthly sales target.</p>

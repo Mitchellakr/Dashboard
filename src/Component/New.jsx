@@ -6,7 +6,7 @@ import avatar4 from '../assets/avatar-4.svg'
 
 const New = () => {
     return (
-        <div className='relative border-2 border-grayColorLight border-solid rounded-xl p-6 bg-whiteColor grid col-span-4 '>
+        <div className='carddark relative border-2 border-grayColorLight border-solid rounded-xl p-6 bg-whiteColor grid col-span-4 '>
             <div className="px-3 py-1 absolute top-[-15px] translate-x-[-50%] left-[50%] rounded-full bg-yellowColor text-whiteColor">NEW</div>
             <div className='flex justify-center items-center mt-3'>
                 <img src={avatar1} className='' alt="" />
@@ -14,7 +14,7 @@ const New = () => {
                 <img src={avatar3} className='ml-[-15px]' alt="" />
                 <img src={avatar4} className='ml-[-15px]' alt="" />
             </div>
-            <div className='my-4 text-center leading-none '>
+            <div className='textwhite my-4 text-center leading-none '>
                 <p>Find event holders near you, sell their tickets, earn commission</p>
             </div>
             <div className='flex items-center justify-center gap-2'>

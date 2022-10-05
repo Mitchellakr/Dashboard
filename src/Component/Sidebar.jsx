@@ -54,9 +54,9 @@ const navlinks = [
 ]
 const Navbar = () => {
     return (
-        <div className='w-[270px] h-full  bg-bodyColor border-r-2 border-solid border-grayColorLight border-y-0 border-l-0'>
+        <div className='bgdark w-[270px] h-full  bg-bodyColor border-r-2 border-solid border-grayColorLight border-y-0 border-l-0'>
             <div className='w-full py-8'>
-                <h1 className='text-2xl font-semibold flex flex-col items-center'>
+                <h1 className='textwhite text-2xl font-semibold flex flex-col items-center'>
                     <span>Ticcki</span><span>Cassa</span>
                 </h1>
             </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
 
                 <div className='pt-12 mx-4 border-t-2 border-t-grayColorLight border-solid border-x-0 border-b-0 '>
                     <div className=' flex flex-col gap-3'>
-                        <div className='text-grayColor text-center rounded-xl bg-grayColorLight p-4 border-solid border border-grayColor relative'>
+                        <div className='carddark text-grayColor text-center rounded-xl bg-grayColorLight p-4 border-solid border border-grayColor relative'>
                             <img className='absolute top-[-10px] left-[50%] translate-x-[-50%]' src={star} alt="" />
                             <p>Sell unlimited tickets per month, reach more customers</p>
                         </div>

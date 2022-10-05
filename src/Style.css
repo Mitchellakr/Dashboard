@@ -1,0 +1,24 @@
+.dark .nav {
+    background-color: #161616;
+}
+
+.dark .bggray {
+    background-color: #a3a3a36c;
+}
+
+.dark #search {
+    background-color: #161616;
+    color: white;
+}
+
+.dark .textwhite {
+    color: white;
+}
+
+.dark .bgdark {
+    background-color: #161616;
+}
+
+.dark .carddark {
+    background-color: #131313;
+}

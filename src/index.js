@@ -4,11 +4,14 @@ import './index.css'
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import { DarkModeContextProvider } from './context/darkModeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App />
+    <DarkModeContextProvider>
+      <App />
+    </DarkModeContextProvider>
   </BrowserRouter>
 );
 
@@ -16,3 +19,13 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+// ReactDOM.render(
+//   <BrowserRouter>
+//     <DarkModeContextProvider>
+//       <App />
+//     </DarkModeContextProvider>
+//   </BrowserRouter>,
+//   document.getElementById("root")
+// );
