@@ -22,3 +22,11 @@
 .dark .carddark {
     background-color: #131313;
 }
+
+.dark {
+    background-color: #161616;
+}
+
+.dark .bgwhite{
+    background-color: white;
+}

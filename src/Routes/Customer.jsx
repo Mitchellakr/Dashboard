@@ -10,7 +10,7 @@ const Customer = () => {
             <div className="w-full ">
                 <Navbar />
                 <div className='bgdark p-6 bg-bodyColor grid grid-cols-12 gap-6'>
-                    Customers page
+                    Customers
                 </div>
             </div>
         </div>

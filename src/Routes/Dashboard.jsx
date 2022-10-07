@@ -10,7 +10,7 @@ import Welcome from '../Component/Welcome'
 
 const Dashboard = () => {
   return (
-    <div className='flex h-auto '>
+    <div className='flex h-full'>
       <Sidebar />
       <div className="w-full ">
         <Navbar />

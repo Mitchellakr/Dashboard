@@ -1,67 +1,67 @@
 import React from 'react'
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { ArrowDown2 } from 'iconsax-react'
 
 const data = [
     {
         name: 'Jan',
-        uv: 4000,
-        amt: 2400,
+        uv: 1000,
+        // amt: 2400,
     },
     {
         name: 'Feb',
-        uv: 3000,
-        amt: 2210,
+        uv: 2000,
+        // amt: 2210,
     },
     {
         name: 'March',
-        uv: 2000,
+        uv: 2200,
         amt: 2290,
     },
     {
         name: 'April',
-        uv: 2780,
-        amt: 2000,
+        uv: 2080,
+        // amt: 2000,
     },
     {
         name: 'May',
-        uv: 1890,
-        amt: 2181,
+        uv: 2090,
+        // amt: 2181,
     },
     {
         name: 'June',
         uv: 2390,
-        amt: 2500,
+        // amt: 2500,
     },
     {
         name: 'july',
-        uv: 3490,
-        amt: 2100,
+        uv: 3200,
+        // amt: 2100,
     },
     {
         name: 'Aug',
-        uv: 3490,
-        amt: 2100,
+        uv: 2190,
+        // amt: 2100,
     },
     {
         name: 'Sept',
-        uv: 3490,
-        amt: 2100,
+        uv: 2590,
+        // amt: 2100,
     },
     {
         name: 'Oct',
-        uv: 3490,
-        amt: 2100,
+        uv: 2590,
+        // amt: 2100,
     },
     {
         name: 'Nov',
         uv: 3490,
-        amt: 2100,
+        // amt: 2100,
     },
     {
         name: 'Dec',
-        uv: 3490,
-        amt: 2100,
+        uv: 2090,
+        // amt: 2100,
     },
 ];
 
@@ -89,9 +89,8 @@ function TicketChart() {
                             </linearGradient>
                         </defs>
                         <XAxis dataKey="name" />
-                        {/* <YAxis /> */}
-                        <CartesianGrid strokeDasharray="3 3" strokeOpacity={.4} />
-                        <Tooltip />
+                        <CartesianGrid strokeDasharray="3 3" horizontal={false} strokeOpacity={.4} />
+                        <Tooltip color='red'/>
                         <Area type="monotone" dataKey="uv" strokeWidth={3} stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
                     </AreaChart>
                 </ResponsiveContainer></div>

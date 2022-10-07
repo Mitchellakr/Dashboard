@@ -9,7 +9,7 @@ const Settings = () => {
       <div className="w-full ">
         <Navbar />
         <div className='bgdark p-6 bg-bodyColor grid grid-cols-12 gap-6'>
-Settings page
+          Settings
         </div>
       </div>
     </div>

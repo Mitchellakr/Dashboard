@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
+  background-color: #FAFAFA;
 }
 
 code {
@@ -35,11 +36,26 @@ code {
   --red-color: #FF0000;
   --yellow-color: #FFC502;
   --green-color: #06B62D;
-  --gray-color: #a3a3a36c;
+  --gray-color: #a3a3a32b;
 }
 
 :root {
   --white-color: #ffffff;
   --body-dark-color: #161616;
   --dark--card-color: #131313;
+}
+
+.Pending {
+  color: var(--yellow-color);
+  background-color: #ffc4021b;
+}
+
+.Success {
+  color: var(--green-color);
+  background-color: #06B62D1b;
+}
+
+.Failed {
+  color: var(--red-color);
+  background-color: #FF00001b;
 }

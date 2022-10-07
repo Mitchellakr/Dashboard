@@ -9,7 +9,7 @@ const Ticket = () => {
       <div className="w-full ">
         <Navbar />
         <div className='bgdark p-6 bg-bodyColor grid grid-cols-12 gap-6'>
-          Tickets page
+          Tickets
         </div>
       </div>
     </div>
